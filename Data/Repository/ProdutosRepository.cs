@@ -1,5 +1,4 @@
-﻿using Domain.Models;
-using Domain.Models.Interface;
+﻿using Domain.Models.Interface;
 
 namespace Data.Repositorio
 {

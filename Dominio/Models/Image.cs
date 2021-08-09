@@ -19,6 +19,7 @@ namespace Domain.Models
         {
             Id = Guid.NewGuid();
             UrlImage = urlImage;
+            DataRegistro = DateTime.Now;
         }
     }
 }

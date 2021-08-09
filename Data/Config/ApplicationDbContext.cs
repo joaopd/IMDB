@@ -13,6 +13,7 @@ namespace Data
         public DbSet<User> Users { get; set; }
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Assessment> Assessments { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

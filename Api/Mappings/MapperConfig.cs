@@ -2,7 +2,7 @@
 using AutoMapper;
 using Domain.Models;
 
-namespace CrossCutting.Mappings
+namespace Api.Mappings
 {
     public class MapperConfig : Profile
     {

@@ -9,10 +9,10 @@ namespace Data.Interfaces
 {
     public interface IGenericRepository<T> where T : class
     {
-        Task add(T objeto);
-        Task Update(T objeto);
+        Task<T> add(T objeto);
+        Task<T> Update(T objeto);
         Task<T> GetEntityById(int Id);
-        Task<List<T>> List(Expression<Func<T, bool>> expression = null,
+        Task<List<T>> GetDataList(Expression<Func<T, bool>> expression = null,
                            Func<IQueryable<T>, IIncludableQueryable<T, object>> include = null);
     }
 }
